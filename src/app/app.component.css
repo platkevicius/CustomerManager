@@ -1,0 +1,47 @@
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header {
+    background: rgb(50, 72, 170);
+    color: #fff;
+    background-blend-mode: lighten;
+
+    background-image: linear-gradient(to bottom, rgb(50, 72, 170), black);
+}
+
+nav {
+    background: black;
+    padding-bottom: 15px;
+    
+    box-shadow: 0 4px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    font-weight: bold;
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+
+    padding-right: 25px;
+    float: right;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+
+    color: silver;
+    background: rgb(50, 116, 170);
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+}

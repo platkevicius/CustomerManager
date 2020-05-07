@@ -1,0 +1,23 @@
+<header id="main-header">
+  <div class ="container">
+    <h2>{{ title }}</h2>
+  </div>
+</header>
+
+
+<nav>
+  <div class="container">
+    <ul>
+      <li><a [routerLink]="['/options']">Options</a></li>
+      <li><a [routerLink]="['/']">Customers</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <router-outlet></router-outlet>
+</main>
+
+<footer>
+  <p>Customer Manager &copy; 2020 by Daniel</p>
+</footer>
